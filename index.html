@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>用户登录</title>
+		<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="js/mui.js"></script>
+		<script type="text/javascript" src="js/mui.min.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+		<script type="text/javascript" src="js/others.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/index_style.css" />
+	</head>
+	<body>
+		<div class="head" id="head">
+				<table class="table1">
+					<tr>
+						<td colspan="2"><font><b>用户登录 USERLOGIN</b><font></td>
+					</tr>
+					<tr>
+						<td><h6>用户名：</h6></td>
+						<td><input type="text" name="username" id="username"/></td>
+					</tr>
+					<tr>
+						<td><h6>密码：</h6></td>
+						<td><input type="password" name="password" id="password"/></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="submit" name="login" id="login" value="登录" onclick="login()"/>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<button name="facelogin" id="facelogin" onclick="tap()">刷脸</button>
+						</td>
+					</tr>
+				</table>
+				<p id="foot">&copy;2019-2020 <a href="index2.html">孙宇涵</a> 版权所有 京ICP证123456号</p>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/face.js"></script>
+</html>

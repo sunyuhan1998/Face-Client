@@ -1,0 +1,46 @@
+.head{
+	width: 915px;
+	height: 1840px;
+	padding-top: 50px;
+	padding-left: 50px;
+	background-image: url(../img/beijing.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.head input{
+	width: 400px;
+	height: 50px;
+}
+.head h5{
+	font-size: 40px;
+	color: white;
+}
+.head h3{
+	width: 350px;
+	color: white;
+	font-size: 80px;
+}
+.head div{
+	padding-top: 50px;
+	text-align: center;
+	background-color: white;
+	border-radius: 20px;
+	font-size: 50px;
+	color: black;
+	width: 850px;
+	height: 100px;
+}
+#newFace{
+	margin-left: 250px;
+	border: none;
+	background-color: #6495ED;
+	font-size: 40px;
+	border-radius: 40px;
+	width: 355px;
+	height: 80px;
+}
+#newFace a{
+	color: white;
+	
+}

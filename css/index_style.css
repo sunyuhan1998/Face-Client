@@ -1,0 +1,63 @@
+.head{
+	width: 979px;
+	height: 1900px;
+	padding-top: 500px;
+	padding-left: 140px;
+	background-image: url(../img/beijing.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.table1{
+	text-align: center;
+	height: 850px;
+}
+.table1 font{
+	color: white;
+	font-size: 60px;
+}
+.table1 h6{
+	color: white;
+	font-size: 50px;
+}
+.table1 input{
+	font-size: 40px;
+	padding-left: 9px;
+	width: 500px;
+	height: 80px;
+	border-radius: 8px;
+	border: none;
+}
+#login{
+	margin-top: 50px;
+	font-size: 40px;
+	color: #FFFFFF;
+	align-content: center;
+	width: 90%;
+	height: 80px;
+	background-color: cornflowerblue;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#facelogin{
+	font-size: 40px;
+	color: black;
+	align-content: center;
+	width: 90%;
+	height: 80px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+	
+#login:hover{
+	background-color: darkcyan;
+	color: darkgray;
+}
+#foot{
+	padding-left: 40px;
+	padding-top: 500px;
+	font-size: 30px;
+	color: #ccc;
+}
+#foot a{
+	color: #ccc;
+}
